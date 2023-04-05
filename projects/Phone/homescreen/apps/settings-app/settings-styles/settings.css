@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 14px;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+h6 {
+    color: white;
+    font-weight: 100;
+    margin: 0;
+    align-self: center;
+}
+
+.box, .profile {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 2px 2px 2px;
+}
+
+.logo {
+    width: 23px;
+    height: 23px;
+    align-self: center;
+    padding: 0px 10px 2px 10px;
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    align-self: center;
+    padding: 0px 10px 2px 10px;
+}
+
+.group1, .group2, .user {
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.iphone-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.awb {
+    width: 13px;
+    padding-right: 2px;
+    margin-right: 1px;
+}
+.time {
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 0px;
+}

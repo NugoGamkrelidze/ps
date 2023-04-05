@@ -1,0 +1,33 @@
+.line1 {
+  margin: 10px 0px 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background-color: red;
+  top: 10px;
+  left: 0;
+  right: 0;
+}
+
+.iphone-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20px;
+  position: fixed;
+  background-color: red;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: 15px;
+}
+
+.time {
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.awb {
+  width: 17px;
+}

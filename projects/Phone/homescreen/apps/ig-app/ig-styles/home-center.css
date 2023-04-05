@@ -1,0 +1,28 @@
+.home-line1{
+  margin-top: 65px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  background-color: green;
+  height: 80px;
+  /* align-content: center; */
+  align-items: center;
+  justify-content: flex-start;
+  padding: 7px 20px;
+}
+
+.new-story-container {
+  display: flex;
+  justify-content: center;
+}
+
+.story-picture {
+  height: 40px;
+  width: 40px;
+}
+
+.story-add-button {
+  height: 13px;
+  width: 13px;
+  /* margin: -20px; */
+}

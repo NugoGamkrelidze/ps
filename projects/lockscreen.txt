@@ -1,0 +1,128 @@
+<!DOCTYPE>
+<html>
+
+  <head>
+  
+    <title>Lockscreen</title>
+    
+    <style>
+    	p {
+        	font-family: arial;
+            font-size: 15px;
+            display: inline-block;
+            margin: 0;
+        	}
+        
+        .lockscreen {
+        	width: 390px;
+            height: 844px;
+            background-color: black;
+            }
+            
+        .top {
+        	color: white;
+            background-color: black;
+			margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        	}
+            
+        .top-right {
+        	display: inline-block;
+            text-align: right;
+        	}
+            
+        .antena, .wifi , .battery{
+            	width: 20px;
+            	}
+            
+        .flashlight {
+        	width: 50px;
+			border-radius: 50px;
+            margin: 30px;
+            background-color: white;
+            }     
+        
+        .camera {
+        	width: 50px;
+
+            border-radius: 50px;
+            margin: 30px;
+        	}
+         
+                      
+        .top-left {
+        	display: inline-block;
+        	}
+            
+        .mid {
+        	margin-top: 0px;
+        	height: 670px;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            background-color: black;
+            }
+            
+        .lock {
+        	width: 40px;
+        	margin: 20 auto 0 auto;
+            border-radius: 25px;
+            }    
+            
+        .date {
+        	
+        	margin-top: 20px;
+        	margin-left: auto;
+    		margin-right: auto;
+            font-size: 20px;
+        	} 
+        
+        .time {
+        	margin-top: 0px;
+        	margin-left: auto;
+    		margin-right: auto;
+            font-size: 80px;
+            }
+            
+        .bot {
+            display: flex;
+  			justify-content: space-between;
+            flex-direction: row;
+            background-color: black;
+            }
+        
+    </style>
+    
+  </head>
+  
+  <body>
+  	<div class="lockscreen"> 
+    
+    	<div class="top">
+        	<div class="top-left">
+            	<p style="font-weight: bold; " class="operator">GEOCELL</p>
+            </div>
+			
+            <div class="top-right">
+              <img class="antena" src="https://cdn-icons-png.flaticon.com/512/1436/1436448.png" alt="antena"> 
+              <img class="wifi" src="https://cdn-icons-png.flaticon.com/512/5393/5393027.png" alt="wifi"> 
+              <img class="battery" src="https://cdn-icons-png.flaticon.com/512/9453/9453966.png" alt="battery"> 
+            </div>
+
+        </div>
+        
+        <div class="mid">
+        	<img class="lock" src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-vector-lock-icon-png-image_4260324.jpg" alt="lock">
+        	<p class="date">Wednesday, 22 March</p>
+            <h1 class="time">10:20</h1>            
+        </div>
+        
+        <div class="bot">
+        	<img class="flashlight" src="https://cdn-icons-png.flaticon.com/512/3178/3178104.png" alt="flashlight"> 
+            <img class="camera" src="https://png.pngtree.com/png-clipart/20190705/original/pngtree-vector-camera-icon-png-image_4237564.jpg" alt="camera"> 
+        </div>
+    </div>
+  </body>
+  
+</html>
